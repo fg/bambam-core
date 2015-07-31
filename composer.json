@@ -1,0 +1,23 @@
+{
+  "name": "fg/bambam-core",
+  "description": "Bambam blog system core",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Fatih GÜRSOY",
+      "email": "fatihgursoy@ymail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "slim/slim": "2.6.2",
+    "slimcontroller/slimcontroller": "0.4.3",
+    "petrgrishin/array-access": "~2.0",
+    "symfony/yaml": "2.6.7"
+  },
+  "autoload": {
+    "psr-0": {
+      "Bambam" : "src/fg"
+    }
+  }
+}
