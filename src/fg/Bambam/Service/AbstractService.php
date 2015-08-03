@@ -12,7 +12,7 @@ abstract class AbstractService
     /**
      * @param Container $container
      */
-    public function __consturct(Container $container)
+    public function __construct(Container $container)
     {
         $this->container = $container;
     }
